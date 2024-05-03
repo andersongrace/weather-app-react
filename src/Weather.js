@@ -9,7 +9,7 @@ export default function Weather(props) {
         ${response.data.main.temp}°F`)
 }
 let apiKey = "1ac062741764d4e19635341372dd2364";
-let apiUrl = `https://api.openweathermap.org/data/3.0/forecast?q=${props.city}&appid=${apiKey}&units=imperial`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${props.city}&appid=${apiKey}&units=imperial`;
 
 axios.get(apiUrl).then(handleResponse);
 
