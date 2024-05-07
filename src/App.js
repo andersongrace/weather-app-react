@@ -13,9 +13,11 @@ function App() {
       <Weather city="Dallas" />  
       </header>
     
-    <div class="note"><small><a href="https://github.com/andersongrace/vanilla-weather-app">Open-source
-        code</a>
-      by Grace Anderson</small>
+    <div class="note">
+      <small>
+      <a href="https://github.com/andersongrace/weather-app-react">
+        Open-source code</a> by Grace Anderson
+        </small>
   </div>
   </div>
   );
