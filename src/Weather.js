@@ -1,3 +1,4 @@
+import React, {useState} from "react";
 import React from "react";
 import axios from "axios";
 
@@ -54,7 +55,7 @@ export default function SearchEngine() {
             <strong>Wind: {weather.wind}km/h</strong>
           </li>
           <li>
-            <img src={weather.icon} />
+          <img alt="icon" src={weather.icon} />
           </li>
         </ul>
       </div>
