@@ -12,7 +12,12 @@ function App() {
       </h1>
       <Weather city="Dallas" />  
       </header>
-    </div>
+    
+    <div class="note"><small><a href="https://github.com/andersongrace/vanilla-weather-app" target="_blank">Open-source
+        code</a>
+      by Grace Anderson</small>
+  </div>
+  </div>
   );
 }
 
