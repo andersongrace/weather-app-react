@@ -13,10 +13,12 @@ function App() {
       <Weather city="Dallas" />  
       </header>
     
-    <div class="note">
-      <small>
+    <div class="footer">
+      <small> This project was coded by Grace Anderson and is 
       <a href="https://github.com/andersongrace/weather-app-react">
-        Open-source code</a> by Grace Anderson
+        Open-sourced on Github</a> 
+        and 
+        <a href="https://master--imaginative-kangaroo-907531.netlify.app/">hosted on Netlify</a>
         </small>
   </div>
   </div>
