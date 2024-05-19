@@ -1,6 +1,8 @@
 import React from 'react';
 import Weather from './Weather';
 import './App.css';
+import WeatherForecastDay from './WeatherForecastDay'
+import dailyForecast from './WeatherForecast'
 
 
 function App() {
