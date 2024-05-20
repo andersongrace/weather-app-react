@@ -1,7 +1,6 @@
 import React from 'react';
 import Weather from './Weather';
 import './App.css';
-import WeatherForecastDay from './WeatherForecastDay'
 
 
 
@@ -12,7 +11,7 @@ function App() {
 <Weather defaultCity={"Dallas"} />
      
     </header>
-    <WeatherForecastDay />
+  
     <div class="footer">
       This project was coded by Grace Anderson and is{" "} 
       <a href="https://github.com/andersongrace/weather-app-react">
